@@ -8,15 +8,14 @@ public class ARExponate : MonoBehaviour
     public Transform targetPosition;
     public float moveDuration = 3.0f;
     public GameObject ItemUI;
+    public  Transform startPosition;
 
-    private Vector3 _startPosition;
     private Vector3 _initialScale = new Vector3(0.3f, 0.3f, 0.3f);
     private Vector3 _targetScale = new Vector3(1, 1, 1);
     private bool _isMoving = false;
 
     private void Start()
     {
-        _startPosition = transform.position;
         _initialScale = transform.localScale;
     }
 
@@ -54,6 +53,6 @@ public class ARExponate : MonoBehaviour
 
     public void ResetPosition()
     {
-      StartCoroutine(MoveAndScale(_startPosition,_initialScale));
+      StartCoroutine(MoveAndScale(startPosition.position,_initialScale));
     }
 }
