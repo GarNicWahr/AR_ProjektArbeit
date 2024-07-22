@@ -7894,7 +7894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlaneIndicator: {fileID: 1353731089078378, guid: b9ed12c68682d5b49bfa70ee9d71602d, type: 3}
-  Height: 0.6
+  Height: 1.4
   OnInteractiveHitTest:
     m_PersistentCalls:
       m_Calls:
@@ -7927,7 +7927,7 @@ MonoBehaviour:
   m_Script: {fileID: 1027344429, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mDisplayAdvanced: 0
+  mDisplayAdvanced: 1
   OnInputReceivedEvent:
     m_PersistentCalls:
       m_Calls:
