@@ -5,6 +5,7 @@ using UnityEngine;
 public class ARInteraction : MonoBehaviour
 {
     public GameObject uiPanel; // Das UI-Panel, das geöffnet werden soll
+    public GameObject uiOverlay;
 
     private Animator _animator;
 
@@ -38,6 +39,7 @@ public class ARInteraction : MonoBehaviour
                         {
                             _animator.SetTrigger("onClick");
                             uiPanel.SetActive(true);
+                            uiOverlay.SetActive(false);
                         }
                     }
                 }
