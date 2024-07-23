@@ -17,7 +17,7 @@ MonoBehaviour:
     ufoLicenseKey: QVdVRUFVdi8vLy8vQUFBQUtFUnJUWHFQM1Vhc3ZHUXUxem92MUwrTVlzV2JBMHpINUh4TzFrWlJmKzl5OVcxOE1NTSsrUVdaUHRBVzJwckROYVB2MklodDJjOVlRcWdZdUhtQURqU3JudkV6WkVlYmxrSXZlNXJqeXNyNThxT00rQzNGOCtDQnlCTHQwcXBQOXR3cllhbTRZck9ENVpuUW5yV1ZCRkNLZW5lc2oyZi9VSTl1aDYzZHhrVVpjWjY2NjFDWXM1NXFPV3FST2pUY21ZSWgxQ0s5QUFDa0JCakxtM1lLYUFyMHJaZ3pJR3B4Ymc4aXUyL1hEUGZEOVN1a3ROZzhGSFpKVnA0QzRGMk5CcHc2aWtrTlJiZmo5WUNXWVJ5RFYrbUlnZ0Y3YXhQc2hjbTRaRXBqdThHRURjc1oxMndjSTVPVjJEOUZsa2hSMjlJeExXU2JLTGpKMk8yd1pPUTRwV3l5QmNaNzU0TWVVYVV6ZldwS2NibmM=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
-    cameraDeviceModeSetting: -3
+    cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     virtualSceneScaleFactor: 100
     modelTargetRecoWhileExtendedTracked: 1
@@ -42,11 +42,11 @@ MonoBehaviour:
     autoStartTracker: 1
     arcoreRequirement: 1
     autoImportArcore: 1
-    thirdPartyARCoreClientDetected: 0
+    thirdPartyARCoreClientDetected: 1
   playmode:
     mRecordingPath: 
     playModeType: 0
   webcam:
     renderTextureLayer: 30
   packageInformation:
-    ARFoundationVersion: 
+    ARFoundationVersion: 5.1.5

@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR_Nautica.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
-  m_configObjects: {}
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: ad2c08aee04134240b16381de2ac3331, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: dc222812d41e650498fd9eb64cc6c526, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: ddb7861384c68f94ab85879a11f5adbe, type: 2}
