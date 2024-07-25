@@ -13,7 +13,7 @@ public class ARExponate : MonoBehaviour
     public  Transform startPosition;
 
     private Vector3 _initialScale = new Vector3(0.3f, 0.3f, 0.3f);
-    private Vector3 _targetScale = new Vector3(2, 2, 2);
+    public Vector3 targetScale = new Vector3(2, 2, 2);
     private bool _isMoving = false;
 
     private void Start()
@@ -49,7 +49,7 @@ public class ARExponate : MonoBehaviour
     {
       if(!_isMoving)
         {
-            StartCoroutine(MoveAndScale(targetPosition.position, _targetScale, false));
+            StartCoroutine(MoveAndScale(targetPosition.position, targetScale, false));
             ItemUI.SetActive(true);
         }
     }

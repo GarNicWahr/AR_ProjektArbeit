@@ -24983,7 +24983,9 @@ MonoBehaviour:
   targetPosition: {fileID: 7959913802835817931}
   moveDuration: 3
   ItemUI: {fileID: 0}
+  Environment: {fileID: 757251197754581176}
   startPosition: {fileID: 1366291782873303835}
+  targetScale: {x: 3, y: 3, z: 3}
 --- !u!114 &1947876537529777904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27184,7 +27186,9 @@ MonoBehaviour:
   targetPosition: {fileID: 5731294519187059162}
   moveDuration: 3
   ItemUI: {fileID: 0}
+  Environment: {fileID: 757251197754581176}
   startPosition: {fileID: 2764532999617264237}
+  targetScale: {x: 3, y: 3, z: 3}
 --- !u!4 &8892737615510438372 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 33f1fb6d1411ddd43a35b3e158d6a2a4, type: 3}
