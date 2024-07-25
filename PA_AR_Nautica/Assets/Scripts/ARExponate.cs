@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,10 +9,11 @@ public class ARExponate : MonoBehaviour
     public Transform targetPosition;
     public float moveDuration = 3.0f;
     public GameObject ItemUI;
+    public GameObject Environment;
     public  Transform startPosition;
 
     private Vector3 _initialScale = new Vector3(0.3f, 0.3f, 0.3f);
-    private Vector3 _targetScale = new Vector3(1, 1, 1);
+    private Vector3 _targetScale = new Vector3(2, 2, 2);
     private bool _isMoving = false;
 
     private void Start()
@@ -21,7 +23,7 @@ public class ARExponate : MonoBehaviour
 
    
 
-    private IEnumerator MoveAndScale(Vector3 targetPos, Vector3 targetScl)
+    private IEnumerator MoveAndScale(Vector3 targetPos, Vector3 targetScl,Boolean showEnv)
     {
         _isMoving = true;
         float elapsedTime = 0;
@@ -38,6 +40,7 @@ public class ARExponate : MonoBehaviour
 
         transform.position = targetPos;
         transform.localScale = targetScl;
+        Environment.SetActive(showEnv);
         _isMoving = false;
     }
 
@@ -46,13 +49,13 @@ public class ARExponate : MonoBehaviour
     {
       if(!_isMoving)
         {
-            StartCoroutine(MoveAndScale(targetPosition.position, _targetScale));
+            StartCoroutine(MoveAndScale(targetPosition.position, _targetScale, false));
             ItemUI.SetActive(true);
         }
     }
 
     public void ResetPosition()
     {
-      StartCoroutine(MoveAndScale(startPosition.position,_initialScale));
+        StartCoroutine(MoveAndScale(startPosition.position,_initialScale, true));
     }
 }
