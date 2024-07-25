@@ -7,38 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz.dunkel
-    second: {fileID: 2100000, guid: 1e113933d56648a4d8255218480abc0d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz.hell
-    second: {fileID: 2100000, guid: 1dccfcc48884cac499055a3e373a02dd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Metall.001
-    second: {fileID: 2100000, guid: 7c8158e508ce21f4fa03d6f4aa791431, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Seil
-    second: {fileID: 2100000, guid: b89940e6162118947bd37d90e16fc74e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: "HolzGr\xFCn"
-    second: {fileID: 2100000, guid: 635e9e482829e3c44a56a35eb687c54b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: StoffSegel
-    second: {fileID: 2100000, guid: da291d375a7e1e54eb09e49c7b1ae1bf, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Wood
-    second: {fileID: 2100000, guid: ebe6dbbee08704149acfd836b3764659, type: 2}
+      name: Elfriede
+    second: {fileID: 2100000, guid: 4f4ad89c35f5ec64585f51cc7852e5a4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
