@@ -7,58 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: BlechDach
-    second: {fileID: 2100000, guid: bf6525aa13884554b9d5e4bc0638f746, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Glas
-    second: {fileID: 2100000, guid: 725d7652fe6a7394a99e16be8c70b129, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz
-    second: {fileID: 2100000, guid: 6d5bdcca8da76fb4389c4396444d7f62, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz.001
-    second: {fileID: 2100000, guid: 6d5bdcca8da76fb4389c4396444d7f62, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz.dunkel
-    second: {fileID: 2100000, guid: 1e113933d56648a4d8255218480abc0d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz.hell
-    second: {fileID: 2100000, guid: 1dccfcc48884cac499055a3e373a02dd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Holz.rot
-    second: {fileID: 2100000, guid: 468f10f9887026040903ff7bee28d06b, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Dampfer_Metall
-    second: {fileID: 2100000, guid: 7c8158e508ce21f4fa03d6f4aa791431, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Flagge01
-    second: {fileID: 2100000, guid: e022bc832d7e9e14db3d4b6a9a9a7cdd, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Flagge02
-    second: {fileID: 2100000, guid: 24381b595cd22394b8970be0cfe67723, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PlaneStoff
-    second: {fileID: 2100000, guid: 96be2029fd771e045a7dc40bde666f32, type: 2}
+      name: Altona
+    second: {fileID: 2100000, guid: 6715dfa857a31fb4a9453c94111d8056, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -145,7 +95,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.099999994
+    globalScale: 10
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

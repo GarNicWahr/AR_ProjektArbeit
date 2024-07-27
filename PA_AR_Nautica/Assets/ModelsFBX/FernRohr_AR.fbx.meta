@@ -7,33 +7,8 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Fernrohr_Holz_Grau
-    second: {fileID: 2100000, guid: dea19ad7f2bf4114d9a238e306443855, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: "Fernrohr_Holz_Gr\xFCn"
-    second: {fileID: 2100000, guid: 784726891b4838f44a9fffe5e2c24e75, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Fernrohr_Holz_Rot
-    second: {fileID: 2100000, guid: 290b9c6abf4cee0439dac8ed3939702e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Fernrohr_Messing
-    second: {fileID: 2100000, guid: ae8a027e02f09b842805a7e122394f3e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glas
-    second: {fileID: 2100000, guid: e9929f066e7adb748a1de4b748f688c4, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Glas.002
-    second: {fileID: 2100000, guid: e9929f066e7adb748a1de4b748f688c4, type: 2}
+      name: Fernrohr
+    second: {fileID: 2100000, guid: bb97eb1a6e13e214cb128188933eb2c0, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

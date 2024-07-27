@@ -8,6 +8,7 @@ public class ARInteraction : MonoBehaviour
     public GameObject uiOverlay;
 
     private Animator _animator;
+    public AudioSource audioSource;
 
     void Start()
     {
@@ -38,6 +39,7 @@ public class ARInteraction : MonoBehaviour
                         if (uiPanel != null)
                         {
                             _animator.SetTrigger("onClick");
+                            audioSource.Play();
                             uiPanel.SetActive(true);
                             uiOverlay.SetActive(false);
                         }
